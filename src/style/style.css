@@ -1,0 +1,51 @@
+.question-modal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .timers {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .next-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }  
+  .back-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-body {
+    height: calc(100vh - 136px);
+    overflow-y: auto;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .progress {
+    margin-top: 20px;
+  }
